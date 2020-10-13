@@ -12,7 +12,9 @@
 		0A605E150225A2C56DAD0F3C /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = D793201862C6756C9D7CC78C /* Profile.swift */; };
 		0B833A852A031B4C3513B243 /* chilkoottrail.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54A62FB73D841AF632775CDB /* chilkoottrail.jpg */; };
 		0C1124533ABE0565B314A44F /* HomeScenarios.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90CC1922F38399255F5AC92 /* HomeScenarios.swift */; };
+		0CC9AE19F64111E43AFC399D /* AccessibilitySnapshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09C78D63A8AE7C8DC5C3AA3 /* AccessibilitySnapshotTests.swift */; };
 		14B43A3FA6442B0C693E078F /* PlaybookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EF9F9B0B7A4A86E3EA0EBF9 /* PlaybookUI.framework */; };
+		152A973054E12BF07E5D8B0B /* PlaybookAccessibility.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8B870EF1136C6EC6CD00447D /* PlaybookAccessibility.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		1901C3A88C1FFEFEB78E459E /* lakemcdonald.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FDDB122F53F367BFA326A499 /* lakemcdonald.jpg */; };
 		1BC32042B13BD2DB4CEBC01D /* hiddenlake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 932B441579D6EF86C49A5568 /* hiddenlake.jpg */; };
 		1E41F2B1351AF1A23CBDD2EC /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = AF6DAEC2EC031EBB18510FB9 /* landmarkData.json */; };
@@ -40,6 +42,7 @@
 		7C7DC8A8ED8B023DF230784A /* Stubs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C5FED0D815648EB02D6C75 /* Stubs.swift */; };
 		7E18844D521C56F83BAF7455 /* turtlerock.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B733775B65E98E7837F3D253 /* turtlerock.jpg */; };
 		7EA3709C5E6CB95FF44B94C2 /* HikeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484534BAAFC74B2B8E662666 /* HikeView.swift */; };
+		820745DBD0F1BEE6382B6699 /* PlaybookAccessibility.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B870EF1136C6EC6CD00447D /* PlaybookAccessibility.framework */; };
 		830C2CEB3646863325B61A22 /* charleyrivers.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FDC78245A1D82930D4681993 /* charleyrivers.jpg */; };
 		8541D69B45364B394EA96EB0 /* icybay.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7B580B6526E763D4EF39BCA3 /* icybay.jpg */; };
 		8A20BC3C4CA21E04018975F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2EF24DF841DE1AF0D13E9C /* AppDelegate.swift */; };
@@ -67,7 +70,6 @@
 		E7E4173796ABC720CDF1AE1A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86B3BE160CAA6EA63D0EE41C /* Preview Assets.xcassets */; };
 		EC9B016F064D1A18674AAA95 /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4798DDE40F3015CFF9B567A /* CategoryRow.swift */; };
 		ECB94EEC9015DA35DF840C85 /* AllScenarios.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D4607676B6D47E4F88EE157 /* AllScenarios.swift */; };
-		F17989E2086CB32CDCDB2A59 /* SnapshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54634E63D9F598E50BFEE94E /* SnapshotTests.swift */; };
 		F3F5E89C55D56323406E018D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD1E2464BE1A9847D81EA9E0 /* Assets.xcassets */; };
 		F518A592770B8973C4E8B501 /* SampleComponent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 802EE057DE943B8FD99F7159 /* SampleComponent.framework */; };
 		F75E6BC976A1B9BEEE66AD81 /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C9731D0286CD995E40C994 /* Badge.swift */; };
@@ -77,6 +79,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		217FD1A66C5A0D609785399F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D1DB2006C4C3195D49D9B27 /* Playbook */;
+			proxyType = 1;
+			remoteGlobalIDString = 9FE363562933B674AFFA8511;
+			remoteInfo = PlaybookAccessibility;
+		};
 		21EBC6EFB91918BDBBFEEF11 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 7D1DB2006C4C3195D49D9B27 /* Playbook */;
@@ -90,6 +99,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 94A1D69E00418C80F93877D3;
 			remoteInfo = PlaybookSnapshot;
+		};
+		5A48E5B335FFF59C521CB878 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D1DB2006C4C3195D49D9B27 /* Playbook */;
+			proxyType = 2;
+			remoteGlobalIDString = 0A91DFD03D72BB0905A88A64;
+			remoteInfo = PlaybookAccessibility;
 		};
 		632A8565182D1E8DBDF8DF19 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -150,6 +166,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		3F730C80808851387221D1EC /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				152A973054E12BF07E5D8B0B /* PlaybookAccessibility.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		457C47786B3F44345913E3D6 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -212,6 +239,7 @@
 		5D1383BDBC69288B92C18310 /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
 		5D4607676B6D47E4F88EE157 /* AllScenarios.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllScenarios.swift; sourceTree = "<group>"; };
 		69803A7B28BE35CF63EB7D29 /* ProfileHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHost.swift; sourceTree = "<group>"; };
+		699DBED3F6613C855089BE00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		6B22197BF1CB4F213B1A0A74 /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
 		6EDFD424C343AC301DB0F234 /* GraphCapsule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphCapsule.swift; sourceTree = "<group>"; };
 		78CCF6C39F07F560470DB160 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -247,6 +275,7 @@
 		D793201862C6756C9D7CC78C /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		D87240EE639E4B505021C19F /* Hike.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hike.swift; sourceTree = "<group>"; };
 		DA00EFC8E34B9D4069FC7038 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		E09C78D63A8AE7C8DC5C3AA3 /* AccessibilitySnapshotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilitySnapshotTests.swift; sourceTree = "<group>"; };
 		E4798DDE40F3015CFF9B567A /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
 		E7980DB51A1EB6129121C5D6 /* stmarylake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = stmarylake.jpg; sourceTree = "<group>"; };
 		F5340487504EF97878690618 /* chincoteague.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chincoteague.jpg; sourceTree = "<group>"; };
@@ -280,6 +309,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF726AFFDD393896A5266C72 /* PlaybookSnapshot.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F401BFF2025443A88E767B1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				820745DBD0F1BEE6382B6699 /* PlaybookAccessibility.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,6 +367,7 @@
 		3DAA1F9FA658A161F8F85957 = {
 			isa = PBXGroup;
 			children = (
+				B0C99603F6B50E1BC11118B6 /* SampleAccessibilitySnapshot */,
 				B9A55EDF9D853A1F58106480 /* SampleApp */,
 				5FAFB2CEC43E1D2B7BCED896 /* SampleComponent */,
 				5F827EEB63647EAD64D384BD /* SamplePlaybook */,
@@ -407,11 +445,21 @@
 		9D498E0FB38A7BDA3AD3494E /* Products */ = {
 			isa = PBXGroup;
 			children = (
+				8B870EF1136C6EC6CD00447D /* PlaybookAccessibility.framework */,
 				482C2B91DC2F26C6E2767BE6 /* Playbook.framework */,
 				1EF9F9B0B7A4A86E3EA0EBF9 /* PlaybookUI.framework */,
 				C480BA4C2F76C451470AD98A /* PlaybookSnapshot.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		B0C99603F6B50E1BC11118B6 /* SampleAccessibilitySnapshot */ = {
+			isa = PBXGroup;
+			children = (
+				E09C78D63A8AE7C8DC5C3AA3 /* AccessibilitySnapshotTests.swift */,
+				699DBED3F6613C855089BE00 /* Info.plist */,
+			);
+			path = SampleAccessibilitySnapshot;
 			sourceTree = "<group>";
 		};
 		B9A55EDF9D853A1F58106480 /* SampleApp */ = {
@@ -504,11 +552,14 @@
 			buildConfigurationList = 5DAA3B8B711E1CC264B04C91 /* Build configuration list for PBXNativeTarget "SampleAccessibilitySnapshot" */;
 			buildPhases = (
 				99DA9D96F4342C664636C9C5 /* Sources */,
+				F401BFF2025443A88E767B1A /* Frameworks */,
+				3F730C80808851387221D1EC /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				221A281C229CD5B388FBE8AB /* PBXTargetDependency */,
+				674C5A161DCEDAFB731BFDB9 /* PBXTargetDependency */,
 			);
 			name = SampleAccessibilitySnapshot;
 			productName = SampleAccessibilitySnapshot;
@@ -637,6 +688,13 @@
 			remoteRef = 632A8565182D1E8DBDF8DF19 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		8B870EF1136C6EC6CD00447D /* PlaybookAccessibility.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = PlaybookAccessibility.framework;
+			remoteRef = 5A48E5B335FFF59C521CB878 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		C480BA4C2F76C451470AD98A /* PlaybookSnapshot.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
@@ -719,7 +777,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F17989E2086CB32CDCDB2A59 /* SnapshotTests.swift in Sources */,
+				0CC9AE19F64111E43AFC399D /* AccessibilitySnapshotTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -775,6 +833,11 @@
 			isa = PBXTargetDependency;
 			target = 85CBE39381637979CD313688;
 			targetProxy = E510AACD3047C41EB8673584 /* PBXContainerItemProxy */;
+		};
+		674C5A161DCEDAFB731BFDB9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9FE363562933B674AFFA8511;
+			targetProxy = 217FD1A66C5A0D609785399F /* PBXContainerItemProxy */;
 		};
 		686DBD0EBFCFFB202291ABAF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -867,7 +930,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = SampleSnapshot/Info.plist;
+				INFOPLIST_FILE = SampleAccessibilitySnapshot/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -932,7 +995,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = SampleSnapshot/Info.plist;
+				INFOPLIST_FILE = SampleAccessibilitySnapshot/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
